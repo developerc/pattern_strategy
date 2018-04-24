@@ -12,8 +12,9 @@ public class Main {
         coolCableMan.workingCopperCable();
         coolCableMan.workingOpticalCable();
 
-       /* GoodCableMan goodCableMan = new GoodCableMan();
-        coolCableMan.setCopperCableMan( goodCableMan);*/
+        GoodCableMan goodCableMan = new GoodCableMan();
+        coolCableMan.setCopperCableMan( goodCableMan);
+        coolCableMan.workingCopperCable();
        /* CableMan myCableMan = new CoolCableMan();
         myCableMan.workingCopperCable();*/
     }

@@ -1,8 +1,10 @@
 package com.company;
 
-public class GoodCableMan extends CableMan{
+import com.company.impl.CopperCableMan;
 
+public class GoodCableMan extends CopperCableMan{
+    @Override
     public void work(){
-        System.out.println("I'm working really good!");
+        System.out.println("I'm working really good copper cableman!");
     }
 }
